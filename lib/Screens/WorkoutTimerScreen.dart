@@ -155,14 +155,14 @@ class _WorkoutTimerScreenState extends State<WorkoutTimerScreen>
                   color: (_isHighIntensity
                           ? const Color(0xFFFF453A)
                           : const Color(0xFF32D74B))
-                      .withOpacity(0.4),
+                      .withOpacity(0.3),
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Text(
                   _isHighIntensity ? 'HIGH INTENSITY' : 'LOW INTENSITY',
                   style: TextStyle(
                     fontSize: 18,
-                    fontWeight: FontWeight.w600,
+                    fontWeight: FontWeight.w900,
                     color:
                         _isHighIntensity
                             ? const Color(0xFFFF453A)
@@ -180,7 +180,7 @@ class _WorkoutTimerScreenState extends State<WorkoutTimerScreen>
                   ),
                   backgroundColor: const Color(0xFF32D74B),
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(30),
+                    borderRadius: BorderRadius.circular(100),
                   ),
                   elevation: 5,
                   shadowColor: const Color(0xFF32D74B).withOpacity(0.3),
@@ -192,7 +192,7 @@ class _WorkoutTimerScreenState extends State<WorkoutTimerScreen>
                   _isActive ? 'PAUSE' : 'START',
                   style: const TextStyle(
                     fontSize: 18,
-                    fontWeight: FontWeight.w600,
+                    fontWeight: FontWeight.bold,
                     color: Colors.white,
                     letterSpacing: 1.1,
                   ),

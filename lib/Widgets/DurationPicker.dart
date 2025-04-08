@@ -61,7 +61,7 @@ class _DurationPickerState extends State<DurationPicker> {
           style: const TextStyle(
             color: Colors.white,
             fontSize: 16,
-            fontWeight: FontWeight.w500,
+            fontWeight: FontWeight.bold,
           ),
         ),
         const SizedBox(height: 8),

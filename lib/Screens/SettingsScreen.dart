@@ -45,7 +45,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   ),
                   backgroundColor: const Color(0xFF32D74B),
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(30),
+                    borderRadius: BorderRadius.circular(100),
                   ),
                 ),
                 onPressed: () {
@@ -67,7 +67,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   'START TIMER',
                   style: TextStyle(
                     fontSize: 18,
-                    fontWeight: FontWeight.w600,
+                    fontWeight: FontWeight.bold,
                     color: Colors.white,
                   ),
                 ),
